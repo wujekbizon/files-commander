@@ -18,7 +18,10 @@
   "dependencies": {
     "@socketsupply/socket": "^0.2.13",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.1",
+    "react-toastify": "^9.1.2"
   },
   "type": "module"
 }

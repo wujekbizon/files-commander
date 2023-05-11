@@ -1,4 +1,4 @@
-This is a new project, that's using a socket runtime. If you remeber Norton Commander or Total Commander way way back, when we use MS-DOS on our PC's.
+This is a new project, that's using a socket runtime. If you remember Norton Commander or Total Commander way way back, when we use MS-DOS on our PC's.
 
 ## Files-Commander - Local-First Implementation
 
