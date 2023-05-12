@@ -43,3 +43,18 @@ Advanced features that can be added to this app to improve its functionality and
     - Excalidraw ?
 
 For state management, I'll add the Redux/Toolkit library. As for types, I'm not sure yet. I may use JavaScript type coercion or Typescript.
+
+# Special Version - Shell Version of file manager
+
+Here are the 10 steps for creating an MVP of a file manager with both GUI and shell versions using React:
+
+1. Plan out the application architecture, with separate layers for the file management logic and front-end interfaces.
+2. Choose a programming language and framework to use for the back-end logic. Node.js/Socket Supply APIs
+3. Develop the file management functions for the back-end layer, such as reading and writing files and directories etc.
+4. Design the UI layout using React Components and SCSS / CSS for styling.
+5. Add functionality to the React components by implementing event handlers (such as onClick) to trigger back-end functions.
+6. Implement the command line interface using a library like Commander.js or other library to parse input arguments. Can this be done with Socket ?
+7. Test the file management functions and interfaces thoroughly, with simulated use cases for both GUI and command line modes.
+8. Build in security features to prevent unauthorized access or file modification.
+9. Add support for customization, such as user-defined hotkeys or color schemes.
+10. Refine the MVP with user feedback, adding additional features or tweaking the interface based on customer needs.

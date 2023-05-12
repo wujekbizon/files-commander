@@ -3,7 +3,7 @@ import os from 'socket:os'
 import { createRoot } from 'react-dom/client'
 import React from 'react'
 import App from './App'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 if (process.env.DEBUG) {
   console.log('started in debug mode')
@@ -11,7 +11,7 @@ if (process.env.DEBUG) {
 
 const root = createRoot(document.getElementById('root'))
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 )
